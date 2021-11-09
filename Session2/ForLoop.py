@@ -59,3 +59,9 @@ print("\n")
 #case 11
 for x in [0, 1, 2]:
   pass
+
+print("\n")
+#case 12
+new_lis = [2, 8, 1, 4, 6]
+for x, new_val in enumerate(new_lis):
+	print (x, ",",new_val)
