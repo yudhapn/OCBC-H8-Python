@@ -19,3 +19,15 @@ class Dachshund(Dog):
 
 class Bulldog(Dog):
     pass
+
+class Parent:
+    def a(self):
+        return "parent 1"
+
+class Parent:
+    def a(self):
+        return "parent 2"
+
+parent = Parent()
+print(parent.a())
+

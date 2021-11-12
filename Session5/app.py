@@ -17,3 +17,7 @@ jim = Bulldog("Jim", 5)
 print(jack)
 print(miles.speak())
 print(miles.speak("Grrr"))
+
+miles = JackRussellTerrier("Miles", 4)
+print(type(miles) is Dog)
+print(isinstance(miles, Dog))
